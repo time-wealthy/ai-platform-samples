@@ -33,7 +33,7 @@ function export_variables(){
 
     # UNCOMMENT & REPLACE "your-gcp-bucket-name" with a universally
     # unique name for a GCS bucket. Do not include gs://
-    export BUCKET_NAME="ai-platform-sample-bucket"
+    export BUCKET_NAME="ai-platform-sample1-bucket"
 
     # UNCOMMENT & REPLACE "path/to/service/account/key" with the full path to
     # the service account key file which you have created and downloaded.
