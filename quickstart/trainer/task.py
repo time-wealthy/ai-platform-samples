@@ -20,7 +20,7 @@ import os.path
 import logging
 import tensorflow as tf
 
-from sklearn.externals import joblib
+import joblib
 from sklearn.linear_model import LinearRegression
 
 

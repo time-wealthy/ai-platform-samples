@@ -20,7 +20,7 @@ import tensorflow as tf
 
 import pandas as pd
 from sklearn import model_selection as ms
-from sklearn.externals import joblib
+import joblib
 from trainer import metadata
 
 
