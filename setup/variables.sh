@@ -29,15 +29,15 @@ function export_variables(){
     export REGION=us-central1
 
     # UNCOMMENT & REPLACE "your-gcp-project-id" with your GCP PROJECT ID
-    # export PROJECT_ID="your-gcp-project-id"
+    export PROJECT_ID="vantan-gafam-demo"
 
     # UNCOMMENT & REPLACE "your-gcp-bucket-name" with a universally
     # unique name for a GCS bucket. Do not include gs://
-    # export BUCKET_NAME="your-gcs-bucket-name"
+    export BUCKET_NAME="ai-platform-sample-bucket"
 
     # UNCOMMENT & REPLACE "path/to/service/account/key" with the full path to
     # the service account key file which you have created and downloaded.
-    # export GOOGLE_APPLICATION_CREDENTIALS="path/to/service/account/key.json"
+    export GOOGLE_APPLICATION_CREDENTIALS="~/sa-private-key.json"
 
     echo "RUNTIME_VERSION='${RUNTIME_VERSION}'"
     echo "PYTHON_VERSION='${PYTHON_VERSION}'"
