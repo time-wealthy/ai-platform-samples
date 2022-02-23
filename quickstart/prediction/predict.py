@@ -16,7 +16,7 @@
 
 import os
 import logging
-import googleapiclient.discovery
+from googleapiclient import discovery
 
 logging.basicConfig()
 
